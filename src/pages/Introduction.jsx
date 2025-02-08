@@ -1,4 +1,5 @@
 import "../styles/Global.css"
+import photo from "../assets/img/Introduction_image.png"
 import SplitText from "../components/Introduction/SplitText"
 
 const Introduction  = () => {
@@ -25,7 +26,7 @@ const Introduction  = () => {
                 </div>
             </div>
             <div className="intro-image">
-                <img src="/src/assets/img/Introduction_image.png" alt="Angie profile" className="profile-image"></img>
+                <img src= {photo} alt="Angie profile" className="profile-image"></img>
             </div>
         </div>
     );

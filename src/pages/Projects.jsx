@@ -14,11 +14,11 @@ const infoProjects = [
         description: "Internal project focused on automating business processes across departments such as Human Resources, Quality, Leaders, and the IT team. Key functionalities include employee scheduling, hardware management, interactive dashboards, evaluation forms, payroll calculation, and the administration of medical leaves, vacations, and rest periods, among other modules. The application enables the dynamic creation of interfaces from JSON, allowing for better information management. It was developed in Python using the Flask framework.",
         link: "https://app.unifilatam.com/",
         image:[
-            "/src/assets/img/Intranet Taurus Services/Welcome.png",
-            "/src/assets/img/Intranet Taurus Services/Navbar.png",
-            "/src/assets/img/Intranet Taurus Services/Hardware.png",
-            "/src/assets/img/Intranet Taurus Services/Forms.png",
-            "/src/assets/img/Intranet Taurus Services/Management.png"
+            "/Intranet Taurus Services/Welcome.png",
+            "/Intranet Taurus Services/Navbar.png",
+            "/Intranet Taurus Services/Hardware.png",
+            "/Intranet Taurus Services/Forms.png",
+            "/Intranet Taurus Services/Management.png"
         ]    
     },
     {
@@ -27,11 +27,11 @@ const infoProjects = [
         description: "Internal project designed to showcase information about the Taurus Services website, including its BPO services, corporate values, internal team, clients, and work methodology, among other key aspects of the company. The application was developed in React (create-react-app), leveraging list rendering and component reuse to optimize code efficiency and maintainability.",
         link: "No longer available",
         image:[
-            "/src/assets/img/Web Taurus Services/Welcome.png",
-            "/src/assets/img/Web Taurus Services/Services.png",
-            "/src/assets/img/Web Taurus Services/Services2.png",
-            "/src/assets/img/Web Taurus Services/Team.png",
-            "/src/assets/img/Web Taurus Services/Work.png"
+            "/Web Taurus Services/Welcome.png",
+            "/Web Taurus Services/Services.png",
+            "/Web Taurus Services/Services2.png",
+            "/Web Taurus Services/Team.png",
+            "/Web Taurus Services/Work.png"
         ] 
         
     }

@@ -2,6 +2,7 @@ import { easings } from "@react-spring/web";
 import { useEffect, useRef, useState } from "react";
 import { ChevronDown } from "lucide-react";
 
+import photo_about_me from "../assets/img/About_me_photo.png"
 
 import Aos from "aos";
 import "aos/dist/aos.css";
