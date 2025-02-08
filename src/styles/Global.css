@@ -152,6 +152,7 @@ h1{
     .introduction {
         flex-direction: column-reverse; 
         text-align: center;
+      
     }
     
     .intro-content {
