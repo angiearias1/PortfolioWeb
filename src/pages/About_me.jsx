@@ -34,7 +34,7 @@ const AboutMe = () => {
             <Navbar />
             <div className="content">
                 <div className="intro-image">
-                    <img data-aos= "fade-down-right" src="/src/assets/img/About_me_photo.png" alt="Angie profile" className="profile-image"></img>
+                    <img data-aos= "fade-down-right" src={photo_about_me} alt="Angie profile" className="profile-image"></img>
                 </div>
 
                 <div className="intro-content">
