@@ -101,6 +101,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 40px;
 }
 
 .projects {
@@ -113,7 +114,8 @@ h1{
 }
 
 
-.title-projects{
+
+.title-projects, .title-experience{
     font-family: Inter-display-medium;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
@@ -145,6 +147,34 @@ h1{
 }
 
 
+
+@media (max-width: 768px) {
+    .introduction {
+        flex-direction: column-reverse; 
+        text-align: center;
+    }
+    
+    .intro-content {
+        align-items: center;
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .profile-image {
+        width: 320px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-image {
+        width: 400px;
+    }
+
+    .intro-content {
+        padding: 10px;
+    }
+}
+
 .subtitle{
     font-family: Inter-display-medium;
     color: #fff;
@@ -158,17 +188,31 @@ h1{
     margin-top: 20px;
 }
 
-.intro-details h2, .projects h2{
+.intro-details h2, .projects h2, .experience h2{
     font-family: Inter-display-bold;
     font-size: 4.7rem;
     color: #fff;
 }
+
+@media (max-width: 480px) {
+    .intro-details h2, .projects h2, .experience h2 {
+        font-size: 2.5rem;
+    }
+}
+
 
 .intro-details p{
     font-family: Polar-light;
     font-size: 1.2rem;
     padding: 20px 50px 20px 0px;
     
+}
+
+@media (max-width: 1024px) {
+    .intro-details p {
+        font-size: 1rem;
+        padding: 15px 40px 15px 0px;
+    }
 }
 
 .intro-details .gradient-title{
@@ -198,6 +242,19 @@ h1{
     font-family: Inter-display-bold;
 }
 
+@media (max-width: 768px) {
+    .title-sections {
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .title-sections {
+        font-size: 1.8rem;
+    }
+}
+
 .degradient{
     background: linear-gradient(90deg, #C6489C, #C36022);
     -webkit-background-clip: text; 
@@ -224,6 +281,13 @@ h1{
     color: #ffffff;
     font-family: Inter-display-bold;
     font-size: 2rem;
+    text-align: center;
+}
+
+.title-four{
+    color: #ffffff;
+    font-family: Inter-display-bold;
+    font-size: 1rem;
     text-align: center;
 }
 

@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 import Introduction from './Introduction'
 import ToolsSection from '../components/Tools/ToolsSection'
 import Services from '../components/Services'
-import ExperienceEducation from '../components/Experience'
+import ExperienceEducation from '../components/ExperienceEducation'
 import Contact from '../components/Contact'
 
 function Landing_page() {

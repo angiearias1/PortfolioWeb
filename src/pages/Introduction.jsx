@@ -20,8 +20,8 @@ const Introduction  = () => {
                     onLetterAnimationComplete={handleAnimationComplete}
                 /> 
                 <div className="intro-details">
-                    <h2>Frontend <span className="gradient-title">Developer</span></h2>
-                    <p className="text-white">I'm passionate about creating beautiful and functional websites. I love working with modern technologies and collaborating with talented teams to bring projects to life.</p>
+                    <h2 className="text-center md:text-left">Frontend <span className="gradient-title">Developer</span></h2>
+                    <p className="text-white text-center md:text-left">I'm passionate about creating beautiful and functional websites. I love working with modern technologies and collaborating with talented teams to bring projects to life.</p>
                 </div>
             </div>
             <div className="intro-image">
