@@ -270,7 +270,7 @@ h1{
 
 @media (max-width: 480px) {
     .title-sections {
-        font-size: 1.4rem;
+        font-size: 2rem;
         margin-top: 40px;
     }
 }

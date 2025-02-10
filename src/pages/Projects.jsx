@@ -39,7 +39,7 @@ const infoProjects = [
 ]
 const ProjectCard = ({ project }) => {
     return (
-        <div className="p-4 rounded-lg w-full sm:w-120 md:w-150 mx-auto">
+        <div className="p-4 rounded-lg w-170 sm:w-120 md:w-150 mx-auto">
             <Swiper
                 modules={[Navigation]}
                 navigation

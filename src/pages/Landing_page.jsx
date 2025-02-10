@@ -11,7 +11,7 @@ function Landing_page() {
   
   return (
     <div className='space-y-8'>
-      {/* <Navbar /> */}
+      <Navbar />
       <Introduction />
       <ToolsSection />
       <Services />
