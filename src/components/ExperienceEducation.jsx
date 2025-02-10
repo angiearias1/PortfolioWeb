@@ -12,7 +12,7 @@ const education =[
 
 const ExperienceEducation = () => {
     return(
-        <div className="text-white p-10">
+        <div className="text-white p-10 section-body">
              <h2 className="title-sections degradient">
                 Professional Journey
             </h2>

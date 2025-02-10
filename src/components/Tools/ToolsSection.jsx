@@ -26,7 +26,7 @@ const ToolsSection = () => {
   );
 
   return (
-    <section id="tools" className="p-10">
+    <section id="tools" className="p-10 section-body">
       <h2 className="title-sections text-white md:mb-12">
         My key allies for creating amazing projects
       </h2>
