@@ -30,7 +30,7 @@ const ToolsSection = () => {
       <h2 className="title-sections text-white md:mb-12">
         My key allies for creating amazing projects
       </h2>
-      <div ref= {ref} className="grid grid-cols-4 space-y-6 md:grid-cols-8 text-center md:mt-16">
+      <div ref= {ref} className="grid grid-cols-4 space-y-6 md:grid-cols-8 text-center mt-8 md:mt-16">
         {tools.map((tool, index) => (
           <motion.div
               key={index}

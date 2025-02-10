@@ -35,7 +35,7 @@ const Experience = () => {
                     <h2 className="title-sections degradient">
                         Creating Digital Experiences: My Journey in Tech
                     </h2>
-                    <div className="grid grid-cols-1 md: grid-cols-3 gap-10 md:mt-16">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:mt-16 mt-10">
                         {/* Experience Section */}
                         <div>
                             <h2 className="title-three"> Frontend </h2>

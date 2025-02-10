@@ -1,10 +1,13 @@
 
-body {
-    background-color: black;
+
+body, html {
+    font-family: Polar-light;
     margin: 0;
     padding: 0;
-    font-family: Polar-light;
+    width: 100%;
+    background-color: black;
 }
+
 
 @font-face {
     font-family: 'Inter-display-bold';
@@ -104,6 +107,13 @@ h1{
     padding: 0 40px;
 }
 
+@media (max-width: 768px) {
+    .introduction {
+        padding: 0; 
+        height: auto;
+    }
+}
+
 .projects {
     height: 100vh; 
     background-image: url('/src/assets/img/Background-projects.png');
@@ -111,6 +121,14 @@ h1{
     background-position: center;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 768px) {
+    .projects {
+        height: auto;
+        min-height: 80vh; /* Para que al menos ocupe una parte de la pantalla */
+        padding: 20px 0; /* Agregamos espacio */
+    }
 }
 
 
@@ -152,7 +170,11 @@ h1{
     .introduction {
         flex-direction: column-reverse; 
         text-align: center;
-      
+    }
+
+    .content, .projects{
+        flex-direction: column;
+        height: auto;
     }
     
     .intro-content {
@@ -161,16 +183,11 @@ h1{
         padding: 20px;
     }
 
-    .profile-image {
-        width: 320px;
-    }
+
 }
 
 @media (max-width: 480px) {
-    .profile-image {
-        width: 400px;
-    }
-
+    
     .intro-content {
         padding: 10px;
     }
@@ -195,9 +212,10 @@ h1{
     color: #fff;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .intro-details h2, .projects h2, .experience h2 {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
+        text-align: center;
     }
 }
 
@@ -252,7 +270,8 @@ h1{
 
 @media (max-width: 480px) {
     .title-sections {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
+        margin-top: 40px;
     }
 }
 
@@ -285,6 +304,19 @@ h1{
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .title-three {
+        font-size: 1.6rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .title-three {
+        font-size: 1.4rem;
+    }
+}
+
 .title-four{
     color: #ffffff;
     font-family: Inter-display-bold;
@@ -301,4 +333,43 @@ h1{
 
 .swiper-button-prev, .swiper-button-next{
     color: #ffffff !important;
+}
+
+.text-container {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text-container h1 {
+    font-size: 4rem; 
+    font-weight: bold;
+}
+
+
+.highlight-orange {
+    color: #C36022;
+}
+
+.highlight-pink {
+    color: #C6489C;
+}
+
+.highlight-lightpink {
+    color: #F080B1;
+}
+
+
+@media (max-width: 768px) {
+    .text-container h1 {
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .text-container h1 {
+        font-size: 1.8rem;
+    }
 }

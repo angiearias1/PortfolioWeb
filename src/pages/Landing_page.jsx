@@ -18,10 +18,12 @@ function Landing_page() {
       <ExperienceEducation />
       <Contact />
 
-        <div className=' text-white text-center p-6 rounded-lg'>
-            <h1>Exploring <span className='text-[#C36022]'>new </span>opportunities</h1>
-            <h1> in <span className='text-[#C6489C]'>web </span> design and <span className='text-[#F080B1]'>development ! </span> </h1>
-        </div>
+      <div className="text-container">
+          <h1>Exploring <span className="highlight-orange">new</span> opportunities</h1>
+          <h1>in <span className="highlight-pink">web</span> design and 
+              <span className="highlight-lightpink"> development!</span>
+          </h1>
+      </div>
 
      
     </div>

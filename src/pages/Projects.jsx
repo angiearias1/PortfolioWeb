@@ -39,13 +39,13 @@ const infoProjects = [
 ]
 const ProjectCard = ({ project }) => {
     return (
-        <div className="p-4 rounded-lg w-170">
+        <div className="p-4 rounded-lg w-full sm:w-120 md:w-150 mx-auto">
             <Swiper
                 modules={[Navigation]}
                 navigation
                 spaceBetween={10}
                 slidesPerView={1}
-                className="w-full h-80"
+                className="w-full h-60 sm:h-72 md:h-80"
             >
                 {project.image.map((image, index) => (
                     <SwiperSlide key={index}>
@@ -69,7 +69,7 @@ const Projects = () => {
     return (
         <div className="relative w-full min-h-screen mx-auto overflow-x-hidden space-y-6">
             <Navbar />
-            <div className="projects w-full min-h-screen flex flex-col items-center justify-center">
+            <div className="projects w-full min-h-[80vh] flex flex-col items-center justify-center">
                 <h2>Tranforming ideas <span className="degradient">into interfaces </span></h2>
                 <p className="text-paragraph text-xl w-4/5 text-center mx-auto px-6 p-6">
                     Here you can see some of the projects I have worked on, where I combine design, functionality, and performance to create attractive and intuitive web experiences. 🚀
@@ -80,7 +80,7 @@ const Projects = () => {
                 <h2 className="title-sections text-white mb-6">Projects that make an impact</h2>
             </div>
     
-            <div className="w-full mx-auto flex gap-6 w-full justify-center align-items">
+            <div className="w-full mx-auto flex gap-6 w-full justify-center align-items grid sm:grid-cols-1 md:grid-cols-2">
                 {infoProjects.map((project) => (
                     <ProjectCard key={project.id} project={project} />
                 ))}

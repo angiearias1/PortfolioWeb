@@ -44,7 +44,7 @@ const Skills = () =>{
             <h2 className="title-sections">
                 Soft and technical skills
             </h2>
-            <div className="grid grid-cols-1 md: grid-cols-2 gap-10 md:mt-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:mt-16 mt-8">
                 <div>
                     <h2 className="title-three"> Technical skills </h2>
                     <div className="space-y-6 md:mt-10 gap-8">
