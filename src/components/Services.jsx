@@ -15,7 +15,7 @@ const Services = () => {
                 Frontend solutions for your projects
             </h2>
 
-            <div className="w-[80%] flex flex-col md:flex-row gap-6">
+            <div className="w-full md:w-[80%] flex flex-col md:flex-row gap-6">
                 <div className="w-full md:w-1/2">
                     <img src ={photoServices} alt="photo-services" className="w-full h-auto" />
                 </div>

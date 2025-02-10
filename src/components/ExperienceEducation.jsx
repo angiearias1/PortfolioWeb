@@ -19,7 +19,7 @@ const ExperienceEducation = () => {
             <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10 md:mt-16 mt-10">
                 {/* Experience Section */}
                 <div>
-                    <h2 className="title-three"> My Experience </h2>
+                    <h2 className="title-three mb-8"> My Experience </h2>
                     <div className="space-y-6 md:mt-10 gap-8">
                         {experiences.map((exp, index) => (
                             <div key={index} className="bg-[rgba(41,39,39,0.4)] p-4 rounded-lg space-y-2">
@@ -35,7 +35,7 @@ const ExperienceEducation = () => {
                 </div>
 
                 <div>
-                <h2 className="title-three"> My Education </h2>
+                <h2 className="title-three mb-8"> My Education </h2>
                     <div className="space-y-6 md:mt-10">
                         {education.map((edu, index) => (
                             <div key={index} className="bg-[rgba(41,39,39,0.4)] p-4 rounded-lg space-y-2">
